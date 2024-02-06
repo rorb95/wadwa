@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone --depth=1 https://github.com/rorb95/real1231.git
+RUN git clone --depth=1 https://github.com/rorb95/inter11.git
 
-WORKDIR /real1231
+WORKDIR /inter11
 
 RUN npm install
 
